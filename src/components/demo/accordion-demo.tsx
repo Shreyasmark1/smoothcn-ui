@@ -1,6 +1,6 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "../ui/accordion";
 
-export function AccordionDemo() {
+const AccordionDemo = () => {
     return (
         <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
@@ -25,3 +25,5 @@ export function AccordionDemo() {
         </Accordion>
     )
 }
+
+export default AccordionDemo
